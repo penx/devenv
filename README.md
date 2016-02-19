@@ -3,6 +3,8 @@ devenv
 
 Spec and (eventually, maybe) scripts to set up development environment
 
+TEST
+
 ##Auto Setup Tools
  - Mac: [Get Mac Apps](http://getmacapps.com/)
   - http://getmacapps.com/install/74fenqmttxql
