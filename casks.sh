@@ -21,6 +21,7 @@ brew cask install synergy
 brew cask install dash
 brew cask install postman
 brew cask install sketch
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package
 
 brew cask install font-material-icons
 brew cask install font-materialdesignicons-webfont
