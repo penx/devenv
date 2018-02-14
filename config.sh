@@ -22,4 +22,7 @@ defaults write com.apple.dock wvous-bl-corner -int 5
 defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
 
+# show Users Library folder
+chflags nohidden ~/Library
+
 # TODO: add items to dock
