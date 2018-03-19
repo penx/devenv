@@ -19,10 +19,9 @@ defaults write com.apple.screensaver askForPasswordDelay 0
 defaults write com.apple.dock wvous-bl-corner -int 5
 # defaults write com.apple.dock wvous-bl-modifier -int 0
 
+defaults write com.apple.dock showhidden -bool YES
+
 defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
-
-# show Users Library folder
-chflags nohidden ~/Library
 
 # TODO: add items to dock
