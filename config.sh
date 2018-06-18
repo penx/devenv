@@ -19,6 +19,9 @@ defaults write com.apple.screensaver askForPasswordDelay 0
 defaults write com.apple.dock wvous-bl-corner -int 5
 # defaults write com.apple.dock wvous-bl-modifier -int 0
 
+# show develop menu in Safari
+defaults write com.apple.Safari IncludeDevelopMenu -bool YES
+
 defaults write com.apple.dock showhidden -bool YES
 
 defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
