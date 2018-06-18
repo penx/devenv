@@ -1,12 +1,16 @@
 brew cask install atom
 brew cask install tower
 brew cask install google-chrome
+brew cask install spotify
+brew cask install spotify-notifications
 # brew cask install adobe-creative-cloud
 # open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.app'
 brew cask install skype
 # brew cask install google-chrome-canary
 brew cask install firefox
 brew cask install iterm2
+brew cask install vlc
+brew cask install scroll-reverser
 # brew cask install dropbox
 # brew cask install evernote
 brew cask install licecap
