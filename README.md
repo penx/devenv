@@ -31,10 +31,6 @@ cd devenv
   - Redux devtools
  - Android emulator, launch 'android' from sdk tools folder to get Android SDK Manager and 'Manage AVDs'
  - [IE 8-10 virtual machines](http://www.modern.ie/en-us/virtualization-tools)  
-  - TODO: automate with https://github.com/xdissent/ievms
-
-## Registration
- - Charles Registration in email 'Charles User License' from 'Charles License <licensing@charlesproxy.com>'
 
 
 ## In main non dev browser
@@ -51,17 +47,5 @@ cd devenv
      - Display arrangement
      - Keyboard access:
        - Keyboard -> Shortcuts -> Full Keyboard Access -> All controls
-
-## Fonts
-
- - Free
-  - [Popular](http://www.fontsquirrel.com/fonts/list/popular)
- - Commercial
-  - Helvetica
-  - Trade Gothic
-  - Bodoni
-  - Frutiger
-  - Myriad
-  - Clarendon
-  - Bau
-  - Gotham Condensed
+ - Safari config
+   - Developer menu
