@@ -11,6 +11,7 @@ brew cask install firefox
 brew cask install iterm2
 brew cask install vlc
 brew cask install scroll-reverser
+brew cask install whatsapp
 # brew cask install dropbox
 # brew cask install evernote
 brew cask install licecap
@@ -24,7 +25,7 @@ open /Applications/Docker.app
 # brew cask install dash
 # brew cask install postman
 brew cask install sketch
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package
+brew cask reinstall qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package
 
 # brew cask install font-material-icons
 # brew cask install font-materialdesignicons-webfont
