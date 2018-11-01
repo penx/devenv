@@ -15,6 +15,7 @@ brew cask install whatsapp
 # brew cask install dropbox
 # brew cask install evernote
 brew cask install licecap
+brew cask install glueprint
 # brew cask install android-sdk
 # brew cask install android-studio
 # brew cask install charles
@@ -34,5 +35,5 @@ brew cask reinstall qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize 
 # brew cask install font-monoid
 
 # Needs password:
-# brew cask install virtualbox
+brew cask install virtualbox
 brew cask install java
