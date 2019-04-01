@@ -3,12 +3,15 @@
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 defaults write -globalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
 defaults write -globalDomain NSAutomaticCapitalizationEnabled -bool false
 # defaults write -globalDomain com.apple.swipescrolldirection -bool false
 
 # https://github.com/paularmstrong/dotfiles/blob/master/osx/defaults.sh
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy name" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showIconPreview true" ~/Library/Preferences/com.apple.finder.plist
+/usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showItemInfo true" ~/Library/Preferences/com.apple.finder.plist
 
 # https://github.com/ymendel/dotfiles/blob/master/osx/finder.defaults
 defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME"
@@ -21,6 +24,12 @@ defaults write com.apple.dock wvous-bl-corner -int 5
 
 # Finder
 defaults write com.apple.finder ShowStatusBar -bool YES
+
+# Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
+defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+# Show the ~/Library folder
+chflags nohidden ~/Library
 
 # show develop menu in Safari
 defaults write com.apple.Safari IncludeDevelopMenu -bool YES

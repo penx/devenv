@@ -16,7 +16,7 @@ brew cask install sketch
 
 ## Media
 brew cask install spotify
-brew cask install spotify-notifications
+# brew cask install spotify-notifications
 brew cask install vlc
 
 ## Communications
