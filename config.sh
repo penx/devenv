@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
 # https://github.com/ptb/mac-setup
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
