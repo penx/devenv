@@ -27,6 +27,7 @@ brew cask install whatsapp
 brew cask install iterm2
 brew cask install slack
 brew cask install scroll-reverser
+brew cask install alfred
 brew cask install nightowl
 # brew cask install dropbox
 # brew cask install evernote
