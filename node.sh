@@ -3,10 +3,11 @@
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | zsh
 nvm install 6
 nvm install 8
-nvm use 8
+nvm install 10
+nvm use 10
 
 # n
-npm install -g n
+# npm install -g n
 
 # n 6
 # n 8
