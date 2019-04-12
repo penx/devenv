@@ -1,4 +1,4 @@
-brew cask install atom
+# brew cask install atom
 brew cask install visual-studio-code
 brew cask install tower2
 brew cask install google-chrome
@@ -24,6 +24,7 @@ brew cask install postman
 brew cask install sketch
 
 brew cask install istat-menus
+brew cask install geekbench
 
 # Needs password:
 brew cask install intel-power-gadget
