@@ -10,12 +10,13 @@ brew cask install google-chrome
 brew cask install firefox
 
 ## Design
-# brew cask install adobe-creative-cloud
+brew cask install adobe-creative-cloud
 # open '/usr/local/Caskroom/adobe-creative-cloud/latest/Creative Cloud Installer.app'
-brew cask install sketch
+brew cask install sketch@52.6
 
 ## Media
 brew cask install spotify
+brew cask install macmediakeyforwarder
 # brew cask install spotify-notifications
 brew cask install vlc
 
@@ -30,7 +31,6 @@ brew cask install scroll-reverser
 brew cask install alfred
 brew cask install nightowl
 brew cask install dockstation
-brew cask install adobe-creative-cloud
 brew cask install 1password
 # brew cask install dropbox
 # brew cask install evernote
@@ -46,7 +46,8 @@ open /Applications/Docker.app
 # brew cask install synergy
 # brew cask install dash
 # brew cask install postman
-brew cask reinstall qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package
+#brew cask reinstall qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package
+brew cask install vmware-fusion
 
 ## Fonts
 # brew cask install font-material-icons
@@ -56,5 +57,5 @@ brew cask reinstall qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize 
 # brew cask install font-monoid
 
 # Needs password:
-brew cask install virtualbox
-brew cask install java
+#brew cask install virtualbox
+#brew cask install java
