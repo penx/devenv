@@ -23,6 +23,7 @@ brew cask install vlc
 ## Communications
 brew cask install skype
 brew cask install whatsapp
+brew cask install zoomus
 
 ## Utilities
 brew cask install iterm2
