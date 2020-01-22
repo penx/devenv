@@ -9,10 +9,11 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 echo 'export EDITOR=pico' >>~/.profile
 
 # casks
-
 brew tap caskroom/cask
 brew tap caskroom/versions
 brew tap caskroom/fonts
+
+brew update # update any existing casks
 
 ./formulae.sh
 ./casks.sh

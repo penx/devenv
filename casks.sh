@@ -29,6 +29,9 @@ brew cask install slack
 brew cask install scroll-reverser
 brew cask install alfred
 brew cask install nightowl
+brew cask install dockstation
+brew cask install adobe-creative-cloud
+brew cask install 1password
 # brew cask install dropbox
 # brew cask install evernote
 brew cask install licecap
