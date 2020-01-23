@@ -17,8 +17,8 @@ git clone git@github.com:penx/devenv.git
 cd devenv
 ./zsh.sh
 ./install.sh
-./atom.sh
 ./sshkey.sh
+./personal.sh
 ```
 
 # Not yet scripted
@@ -29,17 +29,9 @@ cd devenv
   - React devtools https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
   - Redux devtools
  - Android emulator, launch 'android' from sdk tools folder to get Android SDK Manager and 'Manage AVDs'
- - [IE 8-10 virtual machines](http://www.modern.ie/en-us/virtualization-tools)  
-  - TODO: automate with https://github.com/xdissent/ievms
 
 ## Registration
  - Charles Registration in email 'Charles User License' from 'Charles License <licensing@charlesproxy.com>'
-
-
-## In main non dev browser
-
- - [Adblock](https://adblockplus.org)
- - [Disconnect](https://disconnect.me)
 
 ## Mac manual install or app config
 
@@ -48,8 +40,6 @@ cd devenv
      - Security and Privacy
        - Allow applications downloaded from anywhere
      - Display arrangement
-     - Keyboard access:
-       - Keyboard -> Shortcuts -> Full Keyboard Access -> All controls
 
 ## Fonts
 
