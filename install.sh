@@ -17,6 +17,7 @@ brew update
 ./formulae.sh
 ./casks.sh
 ./fonts.sh
+./mac-app-store.sh
 
 # other installs
 xcode-select --install
