@@ -4,7 +4,7 @@ touch ~/.profile
 # Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-echo 'export EDITOR=pico' >>~/.profile
+echo 'export EDITOR=code' >>~/.profile
 
 # casks
 
