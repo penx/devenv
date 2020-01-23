@@ -22,7 +22,7 @@ brew update
 # other installs
 xcode-select --install
 
-./docker.sh
+# ./docker.sh
 ./config.sh
 # aliases
 # alias gpu=‘git pull && terminal-notifier -message "Git Pull complete"'
