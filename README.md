@@ -13,10 +13,10 @@ export MYEMAIL=...
 Then run the following (don't copy paste, as zsh will launch a new shell):
 
 ```sh
+xcode-select --install
 git clone git@github.com:penx/devenv.git
 cd devenv
 ./zsh.sh
-./mac-app-store.sh # for xcode, at least, required for other steps
 sudo xcodebuild -license
 ./install.sh
 ./sshkey.sh
