@@ -29,6 +29,9 @@ brew cask install vlc
 brew cask install skype
 brew cask install whatsapp
 brew cask install zoomus
+brew cask install slack
+brew cask install discord
+brew cask install spectrum
 
 ## Virtualisation
 brew cask install virtualbox
@@ -36,7 +39,6 @@ brew cask install virtualbox
 
 ## Utilities
 brew cask install iterm2
-brew cask install slack
 # brew cask install scroll-reverser
 brew cask install alfred
 brew cask install nightowl
@@ -48,7 +50,7 @@ brew cask install licecap
 brew cask install java
 brew cask install android-sdk
 brew cask install android-studio
-brew cask install charles
+brew cask install charles@3
 brew cask install tower2
 brew cask install docker
 open /Applications/Docker.app
