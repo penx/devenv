@@ -1,4 +1,4 @@
-brew tap homebrew/cask-drivers
+#!/usr/bin/env bash
 
 #lol
 brew cask install league-of-legends

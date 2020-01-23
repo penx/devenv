@@ -8,10 +8,15 @@ echo 'export EDITOR=pico' >>~/.profile
 
 # casks
 
+brew tap homebrew/cask-drivers
 brew tap homebrew/cask-versions
+brew tap homebrew/cask-fonts
+
+brew update
 
 ./formulae.sh
 ./casks.sh
+./fonts.sh
 
 # other installs
 xcode-select --install

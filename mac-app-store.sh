@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 brew install mas
 # evernote
 mas install 406056744

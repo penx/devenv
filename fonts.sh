@@ -1,4 +1,4 @@
-brew tap homebrew/cask-fonts
+#!/usr/bin/env bash
 
 brew cask install font-material-icons
 brew cask install font-materialdesignicons-webfont

@@ -4,11 +4,9 @@ Scripts to set up development environment
 
 ## Script
 
-Set configuration settings - the Gist ID and token are for Atom Sync Settings - grab the ID from Atom Sync Settings Gist URL (mine is listed at https://gist.github.com/penx) and the token either from another installation of Atom Sync Settings or by generating a new one at https://github.com/settings/tokens/new with the Gist scope.
+Set configuration settings - email address is used to create a new RSA key.
 
 ```
-export GISTID=...
-export GISTTOKEN=...
 export MYEMAIL=...
 ```
 

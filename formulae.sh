@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 brew install terminal-notifier
 brew install fontforge
 brew install watchman
