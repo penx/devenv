@@ -12,7 +12,7 @@ export MYEMAIL=...
 
 Then run the following (don't copy paste, as zsh will launch a new shell):
 
-```
+```sh
 git clone git@github.com:penx/devenv.git
 cd devenv
 ./zsh.sh
