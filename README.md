@@ -14,10 +14,10 @@ Then run the following (don't copy paste, as zsh will launch a new shell):
 
 ```sh
 xcode-select --install
+sudo xcodebuild -license
 git clone git@github.com:penx/devenv.git
 cd devenv
 ./zsh.sh
-sudo xcodebuild -license
 ./install.sh
 ./sshkey.sh
 ./personal.sh
