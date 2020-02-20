@@ -50,6 +50,9 @@ open /Applications/Docker.app
 #brew cask reinstall qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package
 brew cask install vmware-fusion
 
+## Node components
+brew install nvm
+
 ## Fonts
 # brew cask install font-material-icons
 # brew cask install font-materialdesignicons-webfont
