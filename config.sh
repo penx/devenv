@@ -40,4 +40,5 @@ defaults write com.apple.dock showhidden -bool YES
 defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
 
-# TODO: add items to dock
+# disable 'swipe to navigate' feature in Chrome
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
