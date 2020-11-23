@@ -17,6 +17,7 @@ brew cask install sketch@52.6
 ## Media
 brew cask install spotify
 brew cask install macmediakeyforwarder
+# brew cask install music-bar
 # brew cask install spotify-notifications
 brew cask install vlc
 
@@ -25,6 +26,7 @@ brew cask install skype
 brew cask install whatsapp
 brew cask install discord
 brew cask install zoomus
+brew cask install meeter
 
 ## Utilities
 brew cask install iterm2
@@ -50,6 +52,7 @@ open /Applications/Docker.app
 # brew cask install postman
 #brew cask reinstall qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize webpquicklook suspicious-package
 brew cask install vmware-fusion
+brew cask install pgadmin4
 
 ## Node components
 brew install nvm
