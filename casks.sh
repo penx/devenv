@@ -38,7 +38,8 @@ brew cask install dockstation
 brew cask install 1password
 # brew cask install dropbox
 # brew cask install evernote
-brew cask install licecap
+# brew cask install licecap
+brew install --cask kap
 brew cask install glueprint
 # brew cask install android-sdk
 # brew cask install android-studio
