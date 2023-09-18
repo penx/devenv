@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 
-brew cask install font-material-icons
-brew cask install font-materialdesignicons-webfont
-brew cask install font-bebas-neue
-brew cask install font-oswald
-brew cask install font-monoid
-brew cask install font-fira-code
-brew cask install font-ibm-plex
+brew install font-material-icons --cask
+brew install font-materialdesignicons-webfont --cask
+brew install font-bebas-neue --cask
+brew install font-oswald --cask
+brew install font-monoid --cask
+brew install font-fira-code --cask
+brew install font-ibm-plex --cask
+brew install font-b612 --cask

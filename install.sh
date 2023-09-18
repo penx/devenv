@@ -2,14 +2,13 @@
 
 touch ~/.profile
 # Homebrew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 echo 'export EDITOR=code' >>~/.profile
 
 # casks
 
-brew tap homebrew/cask-drivers
-brew tap homebrew/cask-versions
+# brew tap homebrew/cask-versions
 brew tap homebrew/cask-fonts
 
 brew update
@@ -20,7 +19,8 @@ brew update
 ./mac-app-store.sh
 
 # other installs
-xcode-select --install
+# xcode-select --install
+sudo xcodebuild -license
 
 # ./docker.sh
 ./config.sh
