@@ -22,6 +22,8 @@ brew update
 # xcode-select --install
 sudo xcodebuild -license
 
+echo 'alias 1btn="open --background -a Music.app https://edge.clrmedia.co.uk/obfm_mp3"' >> ~/.zshrc
+
 # ./docker.sh
 ./config.sh
 # aliases
