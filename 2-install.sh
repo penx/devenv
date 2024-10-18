@@ -1,35 +1,23 @@
 #!/bin/sh
 
-touch ~/.profile
-# Homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-echo 'export EDITOR=code' >>~/.profile
-
-# casks
-
-# brew tap homebrew/cask-versions
-brew tap homebrew/cask-fonts
-
 brew update
 
-./formulae.sh
-./casks.sh
-./fonts.sh
-./mac-app-store.sh
+./2a-formulae.sh
+./2b-casks.sh
+./2c-fonts.sh
+./2d-mac-app-store.sh
 
 # other installs
-# xcode-select --install
 sudo xcodebuild -license
 
 echo 'alias 1btn="open --background -a Music.app https://edge.clrmedia.co.uk/obfm_mp3"' >> ~/.zshrc
 
 # ./docker.sh
-./config.sh
+./2e-config.sh
 # aliases
 # alias gpu=‘git pull && terminal-notifier -message "Git Pull complete"'
 
-./node.sh
+./2e-node.sh
 
 # TODO:
 #

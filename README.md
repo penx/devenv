@@ -14,11 +14,35 @@ Then run the following (don't copy paste, as zsh will launch a new shell):
 
 ```sh
 xcode-select --install
+mkdir ~/Developer
+cd ~/Developer
 git clone https://github.com/penx/devenv.git
 cd devenv
-./zsh.sh
-./install.sh
-./sshkey.sh
+./1-init.sh
+code .
+```
+
+This will install the minimal to get zsh and vscode installed, allowing the below to be edited.
+
+Then edit/run:
+
+```sh
+./2-install.sh
+./3-config.sh
+./4-shell.sh
+```
+
+A few manual CLI steps that require interaction:
+
+```sh
+gh login
+```
+
+Manual installations are listed in `5-manual.md`.
+
+Non-work aps can be installed via
+
+```sh
 ./personal.sh
 ```
 
