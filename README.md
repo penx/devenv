@@ -35,12 +35,12 @@ Then edit/run:
 A few manual CLI steps that require interaction:
 
 ```sh
-gh login
+gh auth login
 ```
 
 Manual installations are listed in `5-manual.md`.
 
-Non-work aps can be installed via
+Non-work apps can be installed via
 
 ```sh
 ./personal.sh
