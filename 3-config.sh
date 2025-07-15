@@ -41,7 +41,7 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 chflags nohidden ~/Library
 
 # show develop menu in Safari
-defaults write com.apple.Safari IncludeDevelopMenu -bool YES
+# defaults write com.apple.Safari IncludeDevelopMenu -bool YES
 
 defaults write com.apple.dock showhidden -bool YES
 
