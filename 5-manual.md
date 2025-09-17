@@ -13,3 +13,7 @@ https://www.bresink.com/osx/0TinkerTool/download.php
 Maybe move to scripts:
 
 - Show selected path in window title.
+
+## Chromium Extensions
+
+https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
