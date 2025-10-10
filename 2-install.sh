@@ -13,11 +13,12 @@ sudo xcodebuild -license
 echo 'alias 1btn="open --background -a Music.app https://edge.clrmedia.co.uk/obfm_mp3"' >> ~/.zshrc
 
 # ./docker.sh
-./2e-config.sh
+./3-config.sh
 # aliases
 # alias gpu=‘git pull && terminal-notifier -message "Git Pull complete"'
 
-./2e-node.sh
+./4-shell.sh
+./node.sh
 
 # TODO:
 #

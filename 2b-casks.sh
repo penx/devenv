@@ -47,7 +47,7 @@ brew install postman --cask
 brew install raycast --cask
 brew install muzzle --cask
 brew install rectangle --cask
-brew install logitech-options --cask
+brew install logi-options-plus --cask
 
 # brew install istat-menus --cask
 # brew install geekbench --cask
