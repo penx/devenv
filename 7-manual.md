@@ -14,6 +14,10 @@ Maybe move to scripts:
 
 - Show selected path in window title.
 
+## Additional Tools for Xcode
+
+https://developer.apple.com/download/all/?q=Additional%20Tools%20for%20Xcode
+
 ## Chromium Extensions
 
 https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
