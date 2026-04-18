@@ -59,7 +59,7 @@ cask "aerial"
 cask "raycast"
 cask "muzzle"
 cask "rectangle"
-cask "logi-options-plus"
+cask "logi-options+"
 cask "dropbox"
 cask "licecap"
 
