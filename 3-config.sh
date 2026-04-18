@@ -27,7 +27,6 @@ defaults write com.apple.universalaccess closeViewSmoothImages -bool false
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 defaults write -g WebKitDeveloperExtras -bool YES
 defaults write com.apple.appstore WebKitDeveloperExtras -bool true
-defaults write com.apple.appstore WebKitDeveloperExtras -bool false
 
 # Screen saver
 defaults write com.apple.screensaver askForPassword 1
