@@ -20,4 +20,5 @@ https://developer.apple.com/download/all/?q=Additional%20Tools%20for%20Xcode
 
 ## Chromium Extensions
 
-https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en
+- React Developer Tools: https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+- uBlock Origin: https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm

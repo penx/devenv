@@ -18,5 +18,8 @@ brew "libdvdcss"
 # Utilities
 cask "balenaetcher"
 
+# Productivity
+cask "libreoffice"
+
 # Smart home
 cask "philips-hue-sync"
