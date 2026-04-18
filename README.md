@@ -19,15 +19,15 @@ cd ~/Developer
 git clone https://github.com/penx/devenv.git
 cd devenv
 ./1-init.sh
-code .
 ```
 
-This will install the minimal to get zsh and Homebrew installed.
+This will install the minimal to get zsh, Homebrew, and an SSH key set up.
 
 Then edit/run:
 
 ```sh
 ./2-install.sh
+code .
 ./3-config.sh
 ./4-shell.sh
 ./5-nvm.sh
