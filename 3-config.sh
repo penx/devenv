@@ -43,6 +43,8 @@ defaults write com.apple.finder ShowStatusBar -bool YES
 defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME"
 defaults write com.apple.finder AppleShowAllFiles -bool YES
 chflags nohidden ~/Library
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 # Dock
 defaults write com.apple.dock showhidden -bool YES
@@ -87,6 +89,11 @@ end tell'
 
 # Safari
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
+defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+
+# TextEdit
+defaults write com.apple.TextEdit RichText -int 0
 
 # Default file associations
 duti -s com.microsoft.VSCode .json all
