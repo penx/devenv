@@ -68,16 +68,12 @@ defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
 osascript <<'APPLESCRIPT'
 tell application "Terminal"
-  set font name of settings set "Pro" to "OperatorMonoLig-Book"
-  set font size of settings set "Pro" to 12
-  set font antialiased of settings set "Pro" to true
+  set the font name of settings set "Pro" to "OperatorMonoLig-Book"
+  set the font size of settings set "Pro" to 12
+  set the font antialiasing of settings set "Pro" to true
 end tell
 APPLESCRIPT
 
-# Safari
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
-defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
-defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 
 # TextEdit
 defaults write com.apple.TextEdit RichText -int 0

@@ -18,6 +18,12 @@ Maybe move to scripts:
 
 https://developer.apple.com/download/all/?q=Additional%20Tools%20for%20Xcode
 
+## Safari settings
+
+- Enable Develop menu: Settings > Advanced > Show features for web developers
+- Show full URL: Settings > Advanced > Smart Search Field > Show full website address
+- Disable auto-open downloads: Settings > General > Open "safe" files after downloading (uncheck)
+
 ## Chromium Extensions
 
 - React Developer Tools: https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
