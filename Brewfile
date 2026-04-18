@@ -37,6 +37,7 @@ cask "vlc"
 
 # Casks - Communications
 cask "discord"
+cask "zoom"
 
 # Casks - Virtualisation
 cask "virtualbox"
@@ -48,6 +49,9 @@ cask "charles"
 cask "tower"
 cask "dash"
 cask "postman"
+
+# Casks - Security
+cask "macpass"
 
 # Casks - OS improvements
 cask "raycast"
