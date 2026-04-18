@@ -11,3 +11,8 @@ nvm use stable
 nvm alias default stable
 
 npm install -g @anthropic-ai/claude-code
+
+claude plugin install linear@claude-plugins-official
+claude plugin install notion-workspace-plugin@notion-plugin-marketplace
+claude plugin install github@claude-plugins-official
+claude plugin install figma@claude-plugins-official
