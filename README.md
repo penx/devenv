@@ -51,3 +51,13 @@ Manual installations are listed in `6-manual.md`.
 
 ## Registration
  - Charles Registration in email 'Charles User License' from 'Charles License <licensing@charlesproxy.com>'
+
+## Fonts (commercial wishlist)
+ - Helvetica
+ - Trade Gothic
+ - Bodoni
+ - Frutiger
+ - Myriad
+ - Clarendon
+ - Bau
+ - Gotham Condensed
