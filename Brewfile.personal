@@ -5,5 +5,18 @@ cask "steam"
 cask "twitch"
 cask "battle-net"
 
+# Creative
+cask "gimp"
+cask "inkscape"
+cask "krita"
+cask "blender"
+
+# Media
+cask "handbrake"
+brew "libdvdcss"
+
+# Utilities
+cask "balenaetcher"
+
 # Smart home
 cask "philips-hue-sync"
