@@ -16,3 +16,4 @@ claude plugin install linear@claude-plugins-official
 claude plugin install notion-workspace-plugin@notion-plugin-marketplace
 claude plugin install github@claude-plugins-official
 claude plugin install figma@claude-plugins-official
+claude plugin install frontend-design@claude-plugins-official
