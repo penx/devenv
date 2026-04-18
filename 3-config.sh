@@ -33,6 +33,7 @@ defaults write com.apple.dock wvous-bl-corner -int 5
 defaults write com.apple.dock wvous-br-corner -int 6
 
 # Finder
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 defaults write com.apple.finder ShowStatusBar -bool YES
 defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME"
 defaults write com.apple.finder AppleShowAllFiles -bool YES
