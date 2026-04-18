@@ -16,3 +16,10 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 echo 'export EDITOR=code' >>~/.profile
+
+# SSH key
+if [ ! -f ~/.ssh/id_ed25519 ]; then
+  ssh-keygen -t ed25519 -C "$MYEMAIL"
+  eval "$(ssh-agent -s)"
+  ssh-add ~/.ssh/id_ed25519
+fi
