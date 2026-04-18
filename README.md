@@ -31,6 +31,7 @@ code .
 ./3-config.sh
 ./4-shell.sh
 ./5-nvm.sh
+./6-commercial-fonts.sh
 ```
 
 Or include personal (non-work) apps:
@@ -45,7 +46,7 @@ A few manual CLI steps that require interaction:
 gh auth login
 ```
 
-Manual installations are listed in `6-manual.md`.
+Manual installations are listed in `7-manual.md`.
 
 # Notes
 
