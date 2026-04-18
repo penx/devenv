@@ -12,7 +12,7 @@ fi
 
 FPATH=$BREW_PREFIX/share/zsh/site-functions:$FPATH
 
-plugins=(git aws gh docker)
+plugins=(git aws gh)
 
 source $ZSH/oh-my-zsh.sh
 
