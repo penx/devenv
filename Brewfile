@@ -9,6 +9,9 @@ brew "duti"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
+# Casks - Editor
+cask "visual-studio-code"
+
 # Casks - Web browsers
 cask "firefox"
 cask "brave-browser"

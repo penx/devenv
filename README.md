@@ -22,7 +22,7 @@ cd devenv
 code .
 ```
 
-This will install the minimal to get zsh and vscode installed, allowing the below to be edited.
+This will install the minimal to get zsh and Homebrew installed.
 
 Then edit/run:
 

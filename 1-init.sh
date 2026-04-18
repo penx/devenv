@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 
-# Basics needed to get VSCode installed
 # Prerequisites (such as xcode cli) in README.md
 
-# should I link this rather than copy?
 cp ./dotfiles/.zshrc ~
 
 # Oh my zsh
@@ -18,6 +16,3 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 echo 'export EDITOR=code' >>~/.profile
-
-brew update
-brew install visual-studio-code --cask
