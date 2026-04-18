@@ -10,4 +10,6 @@ if [ "$1" = "--personal" ]; then
   brew bundle --file=Brewfile.personal
 fi
 
-sudo xcodebuild -license
+if ! xcodebuild -license check 2>/dev/null; then
+  sudo xcodebuild -license
+fi
