@@ -34,6 +34,7 @@ defaults write com.apple.dock wvous-br-corner -int 6
 
 # Finder
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.finder ShowStatusBar -bool YES
 defaults write com.apple.finder NewWindowTargetPath -string "file://$HOME"
 defaults write com.apple.finder AppleShowAllFiles -bool YES
@@ -45,6 +46,9 @@ defaults write com.apple.dock showhidden -bool YES
 # Terminal
 defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
+
+# Safari
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
 
 # Default file associations
 duti -s com.microsoft.VSCode .json all
