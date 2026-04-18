@@ -43,7 +43,6 @@ cask "zoom"
 cask "virtualbox"
 
 # Casks - Dev tools
-cask "android-sdk"
 cask "android-studio"
 cask "charles"
 cask "tower"
@@ -63,7 +62,6 @@ cask "licecap"
 
 # Fonts
 cask "font-material-icons"
-cask "font-materialdesignicons-webfont"
 cask "font-bebas-neue"
 cask "font-oswald"
 cask "font-monoid"
