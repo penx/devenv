@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+sudo -v
+
 # Typing
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticTextCompletionEnabled -bool false
@@ -14,9 +16,9 @@ defaults write -g com.apple.swipescrolldirection -bool NO
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Scroll zoom: control-scroll to zoom, without image smoothing
-defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
-defaults write com.apple.universalaccess closeViewSmoothImages -bool false
+sudo defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+sudo defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+sudo defaults write com.apple.universalaccess closeViewSmoothImages -bool false
 
 # Desktop icons
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy name" ~/Library/Preferences/com.apple.finder.plist
@@ -49,43 +51,28 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 # Dock
 defaults write com.apple.dock showhidden -bool YES
 
-# Remove default Dock items
-dockutil --remove 'Siri' --no-restart
-dockutil --remove 'Launchpad' --no-restart
-dockutil --remove 'Contacts' --no-restart
-dockutil --remove 'Notes' --no-restart
-dockutil --remove 'Reminders' --no-restart
-dockutil --remove 'Maps' --no-restart
-dockutil --remove 'Photos' --no-restart
-dockutil --remove 'Messages' --no-restart
-dockutil --remove 'FaceTime' --no-restart
-dockutil --remove 'Books' --no-restart
-dockutil --remove 'App Store' --no-restart
-dockutil --remove 'Calendar' --no-restart
-dockutil --remove 'Mail' --no-restart
-dockutil --remove 'Freeform' --no-restart
-dockutil --remove 'TV' --no-restart
-dockutil --remove 'News' --no-restart
-dockutil --remove 'Keynote' --no-restart
+# Remove default Dock items (ignore errors if already removed)
+for app in Siri Launchpad Contacts Notes Reminders Maps Photos Messages FaceTime Books "App Store" Calendar Mail Freeform TV News Keynote; do
+  dockutil --remove "$app" --no-restart 2>/dev/null
+done
 
-# Add Dock items
-dockutil --add /System/Applications/Safari.app --no-restart
-dockutil --add /Applications/Slack.app --no-restart
-dockutil --add /System/Applications/Utilities/Terminal.app --no-restart
-dockutil --add /System/Applications/Music.app --no-restart
-dockutil --add '/System/Applications/System Settings.app' --no-restart
+# Add Dock items (skip if already present)
+for app in /System/Applications/Safari.app /Applications/Slack.app /System/Applications/Utilities/Terminal.app /System/Applications/Music.app "/System/Applications/System Settings.app"; do
+  dockutil --find "$(basename "$app" .app)" --no-restart 2>/dev/null || dockutil --add "$app" --no-restart
+done
 
 killall Dock
 
 # Terminal
 defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
-osascript -e '
+osascript <<'APPLESCRIPT'
 tell application "Terminal"
   set font name of settings set "Pro" to "OperatorMonoLig-Book"
   set font size of settings set "Pro" to 12
   set font antialiased of settings set "Pro" to true
-end tell'
+end tell
+APPLESCRIPT
 
 # Safari
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
@@ -96,10 +83,10 @@ defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
 defaults write com.apple.TextEdit RichText -int 0
 
 # Default file associations
-duti -s com.microsoft.VSCode .json all
-duti -s com.microsoft.VSCode .md all
-duti -s com.microsoft.VSCode .mdx all
-duti -s com.microsoft.VSCode .js all
-duti -s com.microsoft.VSCode .ts all
-duti -s com.microsoft.VSCode .jsx all
-duti -s com.microsoft.VSCode .tsx all
+duti -s com.microsoft.VSCode .json all 2>/dev/null
+duti -s com.microsoft.VSCode .md all 2>/dev/null
+duti -s com.microsoft.VSCode .mdx all 2>/dev/null
+duti -s com.microsoft.VSCode .js all 2>/dev/null
+duti -s com.microsoft.VSCode .ts all 2>/dev/null
+duti -s com.microsoft.VSCode .jsx all 2>/dev/null
+duti -s com.microsoft.VSCode .tsx all 2>/dev/null
