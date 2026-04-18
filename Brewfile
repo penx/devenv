@@ -1,11 +1,22 @@
 # Taps
 tap "homebrew/cask-fonts"
+tap "snyk/tap"
 
 # Formulae
-brew "terminal-notifier"
-brew "gh"
-brew "mas"
+brew "awscli"
+brew "cocoapods"
+brew "colima"
+brew "docker"
+brew "docker-compose"
 brew "duti"
+brew "gh"
+brew "gnupg"
+brew "golangci-lint"
+brew "k6"
+brew "mas"
+brew "openjdk"
+brew "snyk/tap/snyk"
+brew "terminal-notifier"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
@@ -63,4 +74,5 @@ mas "Visual Differ", id: 412386481
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 mas "Numbers", id: 409203825
+mas "Tailscale", id: 1475387142
 mas "Velja", id: 1607635845

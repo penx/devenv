@@ -3,7 +3,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
 # zsh plugins for node, nvm, gh?
-plugins=(git)
+plugins=(git aws)
 
 source $ZSH/oh-my-zsh.sh
 
