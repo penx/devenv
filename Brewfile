@@ -52,6 +52,9 @@ cask "postman"
 # Casks - Security
 cask "macpass"
 
+# Casks - Screensaver
+cask "aerial"
+
 # Casks - OS improvements
 cask "raycast"
 cask "muzzle"
