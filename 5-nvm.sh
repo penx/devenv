@@ -9,3 +9,5 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 nvm install stable
 nvm use stable
 nvm alias default stable
+
+npm install -g @anthropic-ai/claude-code
