@@ -1,0 +1,9 @@
+# Gaming
+cask "league-of-legends"
+cask "razer-synapse"
+cask "steam"
+cask "twitch"
+cask "battle-net"
+
+# Smart home
+cask "philips-hue-sync"

@@ -30,6 +30,13 @@ Then edit/run:
 ./2-install.sh
 ./3-config.sh
 ./4-shell.sh
+./5-nvm.sh
+```
+
+Or include personal (non-work) apps:
+
+```sh
+./2-install.sh --personal
 ```
 
 A few manual CLI steps that require interaction:
@@ -38,13 +45,7 @@ A few manual CLI steps that require interaction:
 gh auth login
 ```
 
-Manual installations are listed in `5-manual.md`.
-
-Non-work apps can be installed via
-
-```sh
-./personal.sh
-```
+Manual installations are listed in `6-manual.md`.
 
 # Not yet scripted
 
