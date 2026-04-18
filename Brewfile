@@ -75,7 +75,6 @@ cask "font-b612"
 # Mac App Store
 mas "Slack", id: 803453959
 mas "The Unarchiver", id: 425424353
-mas "Visual Differ", id: 412386481
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
 mas "Numbers", id: 409203825
