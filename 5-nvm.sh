@@ -18,3 +18,4 @@ claude plugin install github@claude-plugins-official
 claude plugin install figma@claude-plugins-official
 claude plugin install frontend-design@claude-plugins-official
 claude plugin install code-review@claude-plugins-official
+claude plugin install commit-commands@claude-plugins-official
