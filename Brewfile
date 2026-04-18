@@ -62,6 +62,7 @@ cask "rectangle"
 cask "logi-options+"
 cask "dropbox"
 cask "licecap"
+cask "stats"
 
 # Fonts
 cask "font-material-icons"
