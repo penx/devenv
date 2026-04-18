@@ -43,6 +43,34 @@ chflags nohidden ~/Library
 # Dock
 defaults write com.apple.dock showhidden -bool YES
 
+# Remove default Dock items
+dockutil --remove 'Siri' --no-restart
+dockutil --remove 'Launchpad' --no-restart
+dockutil --remove 'Contacts' --no-restart
+dockutil --remove 'Notes' --no-restart
+dockutil --remove 'Reminders' --no-restart
+dockutil --remove 'Maps' --no-restart
+dockutil --remove 'Photos' --no-restart
+dockutil --remove 'Messages' --no-restart
+dockutil --remove 'FaceTime' --no-restart
+dockutil --remove 'Books' --no-restart
+dockutil --remove 'App Store' --no-restart
+dockutil --remove 'Calendar' --no-restart
+dockutil --remove 'Mail' --no-restart
+dockutil --remove 'Freeform' --no-restart
+dockutil --remove 'TV' --no-restart
+dockutil --remove 'News' --no-restart
+dockutil --remove 'Keynote' --no-restart
+
+# Add Dock items
+dockutil --add /System/Applications/Safari.app --no-restart
+dockutil --add /Applications/Slack.app --no-restart
+dockutil --add /System/Applications/Utilities/Terminal.app --no-restart
+dockutil --add /System/Applications/Music.app --no-restart
+dockutil --add '/System/Applications/System Settings.app' --no-restart
+
+killall Dock
+
 # Terminal
 defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
