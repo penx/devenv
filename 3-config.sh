@@ -13,6 +13,11 @@ defaults write -g com.apple.swipescrolldirection -bool NO
 # Enable full keyboard access for all controls (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
+# Scroll zoom: control-scroll to zoom, without image smoothing
+defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+defaults write com.apple.universalaccess closeViewSmoothImages -bool false
+
 # Desktop icons
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:arrangeBy name" ~/Library/Preferences/com.apple.finder.plist
 /usr/libexec/PlistBuddy -c "Set :DesktopViewSettings:IconViewSettings:showIconPreview true" ~/Library/Preferences/com.apple.finder.plist
@@ -74,6 +79,12 @@ killall Dock
 # Terminal
 defaults write com.apple.Terminal "Default Window Settings" -string "Pro"
 defaults write com.apple.Terminal "Startup Window Settings" -string "Pro"
+osascript -e '
+tell application "Terminal"
+  set font name of settings set "Pro" to "OperatorMonoLig-Book"
+  set font size of settings set "Pro" to 12
+  set font antialiased of settings set "Pro" to true
+end tell'
 
 # Safari
 defaults write com.apple.Safari IncludeDevelopMenu -bool true
