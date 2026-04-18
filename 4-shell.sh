@@ -1,7 +1,4 @@
-mkdir ~/bin
+#!/usr/bin/env bash
 
-# should these be links rather than copy?
+mkdir -p ~/bin
 cp ./bin/* ~/bin
-
-brew install zsh-autosuggestions
-brew install zsh-syntax-highlighting
