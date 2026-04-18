@@ -47,36 +47,7 @@ gh auth login
 
 Manual installations are listed in `6-manual.md`.
 
-# Not yet scripted
-
-## Browsers & Testing
-
- - Chrome addons TBC
-  - React devtools https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
-  - Redux devtools
- - Android emulator, launch 'android' from sdk tools folder to get Android SDK Manager and 'Manage AVDs'
+# Notes
 
 ## Registration
  - Charles Registration in email 'Charles User License' from 'Charles License <licensing@charlesproxy.com>'
-
-## Mac manual install or app config
-
- - Finder config
-   - System Preferences
-     - Security and Privacy
-       - Allow applications downloaded from anywhere
-     - Display arrangement
-
-## Fonts
-
- - Free
-  - [Popular](http://www.fontsquirrel.com/fonts/list/popular)
- - Commercial
-  - Helvetica
-  - Trade Gothic
-  - Bodoni
-  - Frutiger
-  - Myriad
-  - Clarendon
-  - Bau
-  - Gotham Condensed
