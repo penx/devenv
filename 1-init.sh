@@ -19,6 +19,10 @@ echo 'export EDITOR=code' >>~/.profile
 
 # SSH key
 if [ ! -f ~/.ssh/id_ed25519 ]; then
+  if [ -z "$MYEMAIL" ]; then
+    echo "Error: MYEMAIL is not set. Run: export MYEMAIL=your@email.com"
+    exit 1
+  fi
   ssh-keygen -t ed25519 -C "$MYEMAIL"
   eval "$(ssh-agent -s)"
   ssh-add ~/.ssh/id_ed25519
