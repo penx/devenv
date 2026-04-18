@@ -13,3 +13,5 @@ export NVM_DIR="$HOME/.nvm"
 
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+alias 1btn="open --background -a Music.app https://edge.clrmedia.co.uk/obfm_mp3"
